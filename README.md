@@ -1,4 +1,4 @@
-# Yahoo Finance Stock Scraper \& Email Reporter
+# Web Stock Scraper \& Email Reporter
 
 A small Python project that scrapes key quote data for a list of stocks from Yahoo Finance, saves it to a dated CSV file, and emails the report as an attachment.
 
@@ -14,9 +14,9 @@ A small Python project that scrapes key quote data for a list of stocks from Yah
 
 ```
 .
-├── scraper.py       # Scrapes the stock pages, writes the CSV, triggers the email
-├── mailsender.py    # Sends the CSV file as an email attachment
-└── 2026-10-15.csv   # Example output
+├── scraper.py       
+├── mailsender.py    
+└── 2026-10-15.csv   
 ```
 
 ## Requirements
@@ -66,7 +66,6 @@ This project uses Gmail's SMTP server (`smtp.gmail.com:587`). Gmail requires an 
 2. Create an App Password in your Google account security settings.
 3. Use that App Password in `mailsender.py`.
 
-> \*\*Security note:\*\* Never commit your real email address or App Password to GitHub. Consider loading them from environment variables or a `.env` file that is listed in `.gitignore`.
 
 ## Usage
 
