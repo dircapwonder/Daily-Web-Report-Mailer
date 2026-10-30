@@ -113,4 +113,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Disclaimer
 
-This project is not affiliated with OpenWeatherMap. Weather data comes from the OpenWeatherMap API and is subject to their terms of use. The data is shown for general information only and may be delayed or inaccurate. Do not use your own email credentials or API key in public code.
+This project reads data from a public website. If you use it, you are responsible for following that website's terms of use and rules about automated access. The collected data is for information only, may be delayed or inaccurate, and is **not financial advice**. Do not put your email password in public code.
