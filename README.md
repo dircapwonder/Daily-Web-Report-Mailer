@@ -16,6 +16,7 @@ A small Python project that scrapes key quote data for a list of stocks from Yah
 .
 ├── scraper.py       
 ├── mailsender.py    
+├── LICENSE              
 └── 2026-10-15.csv   
 ```
 
@@ -106,7 +107,10 @@ The script will:
 * Schedule daily runs with `cron` or Windows Task Scheduler
 * Switch to an official data source or API for more reliable data
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Disclaimer
 
-This project is for educational purposes only. The data it collects is not financial advice.
-
+This project is not affiliated with OpenWeatherMap. Weather data comes from the OpenWeatherMap API and is subject to their terms of use. The data is shown for general information only and may be delayed or inaccurate. Do not use your own email credentials or API key in public code.
